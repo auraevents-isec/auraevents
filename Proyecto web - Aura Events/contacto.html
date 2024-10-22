@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Aura Events</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo_aura_events.jpg" alt="Logo Aura Events" class="imglogo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<main>
+    <section class="contacto">
+        <h2>¡Contactanos!</h2>
+        <p>Si estás interesado en nuestros servicios o deseas realizar una consulta, ¡no dudes en dejar tu información para poder resolver tus dudas!</p>
+        
+        <div class="contacto-container">
+            <div class="imagen-container">
+                <img src="img/formulario.jpg" alt="Dueños de Aura Events" class="imagen-dueños">
+            </div>
+            
+            <div class="formulario-container">
+                <form method="post" class="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <button type="submit" class="boton-cta">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2024 Aura Events. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
